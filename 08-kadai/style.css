@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;  
+}
+
+
+label{
+    padding:0 20px;
+}
+
+.bun{
+    padding:10px 30px 30px 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bun p{
+    padding: 0 0 50px 0;
+}
+
+.onamae{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.telno{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.ismustrep{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.means{
+    display: flex;
+    flex-direction: row;
+    justify-content:start; 
+    padding: 6px;
+}
+
+.contacttype{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.contacttext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+
+.button{
+    padding:50px 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+}

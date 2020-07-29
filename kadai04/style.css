@@ -1,0 +1,189 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+    font-feature-settings: "palt";
+}
+.global-nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    border: 1px solid dimgrey;
+}
+.global-nav h1{
+    flex: 1;
+    color: dimgrey;
+    font-weight: lighter;
+}
+.global-nav nav ul{
+    list-style: none;
+    display: flex;
+}
+.global-nav nav ul li{
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    color: dimgrey;
+    font-weight: lighter;
+}
+.hero {
+    height: 80vh;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    border: 1px solid dimgrey;
+}
+.hero-text{
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    color: dimgrey;
+    font-weight: lighter;
+}
+
+.vision h3{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    color: dimgrey;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+.vision-text{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: dimgrey;
+    letter-spacing: 3px;
+    line-height: 4rem;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100vw;
+    padding: 100px;
+    align-items: center;
+    font-size: 3rem;
+    letter-spacing: 0.05rem;
+}
+
+.service-item-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.service-item{
+    margin: 3%;
+    padding: 0.75rem;
+}
+.service h3{
+    font-size: 2.5rem;
+    color: dimgrey;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+.service h4{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: left;
+    border: 2px solid dimgrey;
+    border-top: 0;
+    border-bottom: 0;
+    color: dimgrey;
+    letter-spacing: 3px;
+    height: 25%;
+}
+.service p{
+    font-size: 25px;
+    border: 2px solid dimgrey;
+    border-top: 0;
+    color: dimgrey;
+    letter-spacing: 3px;
+}
+.service-header{
+    height: 50%;
+    width: 100%;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid dimgray;
+}
+
+.voice h3{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 2rem;
+    color: dimgrey;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+.voice-item-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid dimgray;
+    margin: 4rem 10rem 15rem 10rem;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+}
+.voice-text{
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    font-size: 23px;
+    text-align: 2rem;
+    color: dimgrey;
+}
+.voice-text h5{
+    color: dimgrey;
+    font-weight: lighter;
+}
+.voice-photo{
+    float: left;
+    background-color:#ccc;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid dimgrey;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    color: dimgrey;
+    background-color: black;
+}
+footer h2{
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 3rem 0rem 1rem 1rem;
+    margin-bottom: 1rem;
+}
+footer nav ul{
+    display: flex;
+    justify-content: center;
+}
+footer nav ul li{
+    list-style: none;
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+.copyright{
+    padding-bottom: 1rem;
+}
